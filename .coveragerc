@@ -1,0 +1,14 @@
+[run]
+
+branch = true
+source = aoc2022/
+
+[report]
+
+omit = 
+    tests/
+
+show_missing = true
+skip_empty = true
+skip_covered = true
+sort = Cover
