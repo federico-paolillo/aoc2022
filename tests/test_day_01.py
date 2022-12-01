@@ -37,4 +37,4 @@ class DayOneTestCase(unittest.TestCase):
     def test_part_two_solves_real_input(self):
         inventories_from_file = read_elf_inventory_file("inputs/day_01.txt")
         result = part_two(inventories_from_file)
-        self.assertEqual(result, 1)
+        self.assertEqual(result, 203420)
