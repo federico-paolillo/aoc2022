@@ -133,7 +133,7 @@ def _calculate_score(
     return sum(rps_round.score() for rps_round in rps_rounds)
 
 
-def read_rps_strategy_guide_entries(
+def read_rps_strategy_guide_file_entries(
     file_path: str,
 ) -> List[RockPaperScissorsStrategyGuideEntry]:
     result: List[RockPaperScissorsStrategyGuideEntry] = []
