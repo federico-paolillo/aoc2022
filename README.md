@@ -19,3 +19,4 @@ I manage my virtual env with [Pipenv](https://pipenv.pypa.io/en/latest/), if you
 ## Entries
 
 - [Day One](docs/day_01.md)
+- [Day Two](docs/day_02.md)

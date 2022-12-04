@@ -7,6 +7,9 @@ from typing import List, Optional
 class ElfInventory:
     carried_snacks_calories: List[int] = field(default_factory=list)
 
+    def total_calories_carried(self) -> int:
+        return sum(self.carried_snacks_calories)
+
 
 def read_elf_inventory_file(file_path: str) -> List[ElfInventory]:
     current_elf_inventory: Optional[ElfInventory] = None
@@ -32,19 +35,14 @@ def read_elf_inventory_file(file_path: str) -> List[ElfInventory]:
 
 
 def part_one(elf_inventories: List[ElfInventory]) -> int:
-    return max(
-        (sum(inventory.carried_snacks_calories) for inventory in elf_inventories)
-    )
+    return max(inventory.total_calories_carried() for inventory in elf_inventories)
 
 
 def part_two(elf_inventories: List[ElfInventory]) -> int:
     return sum(
         islice(
             sorted(
-                [
-                    sum(inventory.carried_snacks_calories)
-                    for inventory in elf_inventories
-                ],
+                [inventory.total_calories_carried() for inventory in elf_inventories],
                 reverse=True,
             ),
             3,
