@@ -32,10 +32,12 @@ class CrateMover9001:
         to_crate_index = crate_move_instruction.to_crate - 1
 
         substack = self.crate_stacks[from_crate_index][
-            -crate_move_instruction.crates_to_move:
+            -crate_move_instruction.crates_to_move :
         ]
 
-        del self.crate_stacks[from_crate_index][-crate_move_instruction.crates_to_move:]
+        del self.crate_stacks[from_crate_index][
+            -crate_move_instruction.crates_to_move :
+        ]
 
         self.crate_stacks[to_crate_index].extend(substack)
 

@@ -5,9 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v2.5.0
       - name: Install Python 3.11
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v2.3.3
         with:
           python-version: "3.11"
       - name: Install Pipenv
@@ -19,7 +19,7 @@ jobs:
       - name: Digest coverage
         run: pipenv run coverage xml
       - name: Upload coverage
-        uses: codecov/codecov-action@v2
+        uses: codecov/codecov-action@v3.1.1
         with:
           files: ./coverage.xml
           fail_ci_if_error: true
