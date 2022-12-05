@@ -1,5 +1,4 @@
 from dataclasses import dataclass
-from functools import reduce
 from typing import List, Tuple
 
 
@@ -14,11 +13,17 @@ class CleaningAssignment:
             and self.section_end >= other.section_end
         )
 
-    def intersects(self, other: 'CleaningAssignment') -> bool:
-        if self.section_start >= other.section_start and self.section_start <= other.section_end:
+    def intersects(self, other: "CleaningAssignment") -> bool:
+        if (
+            self.section_start >= other.section_start
+            and self.section_start <= other.section_end
+        ):
             return True
 
-        if self.section_end >= other.section_start and self.section_end <= other.section_end:
+        if (
+            self.section_end >= other.section_start
+            and self.section_end <= other.section_end
+        ):
             return True
 
         return False
