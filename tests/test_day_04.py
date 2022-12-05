@@ -45,4 +45,4 @@ class DayFourTestCase(unittest.TestCase):
     def test_part_two_solves_real_input(self):
         cleaning_assignment_pairs = read_assignment_pairs("inputs/day_04.txt")
         result = part_two(cleaning_assignment_pairs)
-        self.assertEqual(result, 1)
+        self.assertEqual(result, 872)
