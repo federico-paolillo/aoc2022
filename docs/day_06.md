@@ -51,8 +51,8 @@ Here are the first positions of start-of-message markers for all of the above ex
 
 How many characters need to be processed before the first start-of-message marker is detected?
 
-Your puzzle answer was *2315*.
+Your puzzle answer was **2315**.
 
 ## Puzzle Input
 
-Puzzle input is just a long ass string, it has been hardcoded in the soultions tests
+Puzzle input is just a long ass string, it has been hardcoded in the solution tests
