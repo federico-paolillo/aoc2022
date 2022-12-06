@@ -1,4 +1,4 @@
-# Day Five: Supply Stacks
+# Day 5: Supply Stacks
 
 ![Photo of some Santa's elfs moving boxes using a crane at a beach next to a tropical jungle](banners/day_05.png)
 
@@ -69,26 +69,6 @@ The Elves just need to know which crate will end up on top of each stack; in thi
 
 After the rearrangement procedure completes, what crate ends up on top of each stack?
 
-## Part Two
-
-## Puzzle Input
-
-Puzzle input starts with
-
-```
-[G]                 [D] [R]
-[W]         [V]     [C] [T] [M]
-[L]         [P] [Z] [Q] [F] [V]
-[J]         [S] [D] [J] [M] [T] [V]
-[B]     [M] [H] [L] [Z] [J] [B] [S]
-[R] [C] [T] [C] [T] [R] [D] [R] [D]
-[T] [W] [Z] [T] [P] [B] [B] [H] [P]
-[D] [S] [R] [D] [G] [F] [S] [L] [Q]
- 1   2   3   4   5   6   7   8   9
-```
-
-Because these lines would be too annoying to parse they have been hardcoded in the solution and passed as `initial_state`
-
 Your puzzle answer was **SHMSDGZVC**.
 
 ## Part Two
@@ -152,3 +132,21 @@ In this example, the CrateMover 9001 has put the crates in a totally different o
 Before the rearrangement process finishes, update your simulation so that the Elves know where they should stand to be ready to unload the final supplies. After the rearrangement procedure completes, what crate ends up on top of each stack?
 
 Your puzzle answer was **VRZGHDFBQ**.
+
+## Puzzle Input
+
+Puzzle input starts with
+
+```
+[G]                 [D] [R]
+[W]         [V]     [C] [T] [M]
+[L]         [P] [Z] [Q] [F] [V]
+[J]         [S] [D] [J] [M] [T] [V]
+[B]     [M] [H] [L] [Z] [J] [B] [S]
+[R] [C] [T] [C] [T] [R] [D] [R] [D]
+[T] [W] [Z] [T] [P] [B] [B] [H] [P]
+[D] [S] [R] [D] [G] [F] [S] [L] [Q]
+ 1   2   3   4   5   6   7   8   9
+```
+
+Because these lines would be too annoying to parse they have been hardcoded in the solution tests and passed as `initial_state`

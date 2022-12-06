@@ -23,3 +23,9 @@ I manage my virtual env with [Pipenv](https://pipenv.pypa.io/en/latest/), if you
 - [Day Three](docs/day_03.md)
 - [Day Four](docs/day_04.md)
 - [Day Five](docs/day_05.md)
+- [Day Six](docs/day_06.md)
+
+## Images
+
+All the images in the `docs/banners` folders have been generated using [DALL-E 2](https://openai.com/dall-e-2/) by [OpenAI](https://openai.com/).  
+The images in `docs/banners` are provided under [Attribution 4.0 International (CC BY 4.0) License](https://creativecommons.org/licenses/by/4.0/).

@@ -1,4 +1,4 @@
-# Day Four: Camp Cleanup
+# Day 4: Camp Cleanup
 
 ## Part One
 
