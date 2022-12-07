@@ -24,6 +24,7 @@ I manage my virtual env with [Pipenv](https://pipenv.pypa.io/en/latest/), if you
 - [Day Four](docs/day_04.md)
 - [Day Five](docs/day_05.md)
 - [Day Six](docs/day_06.md)
+- [Day Seven](docs/day_07.md)
 
 ## Images
 

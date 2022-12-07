@@ -40,5 +40,6 @@ def find_marker(datastream_buffer: str, marker_size: int) -> int:
 def part_one(datastream_buffer: str) -> int:
     return find_marker(datastream_buffer, 4)
 
+
 def part_two(datastream_buffer: str) -> int:
     return find_marker(datastream_buffer, 14)

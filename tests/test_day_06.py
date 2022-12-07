@@ -41,7 +41,7 @@ class DaySixTestCase(unittest.TestCase):
 
     def test_part_two_solves_example_input_1(self):
         result = part_two("mjqjpqmgbljsphdztnvjfqwrcgsmlb")
-        
+
         self.assertEqual(result, 19)
 
     def test_part_two_solves_example_input_2(self):
