@@ -3,7 +3,7 @@ import unittest
 from aoc2022.day_07 import part_one, parse_cmd_line, part_two, read_cmd_lines
 
 
-class DaySixTestCase(unittest.TestCase):
+class DaySevenTestCase(unittest.TestCase):
     def test_part_one_solves_example_input(self):
         result = part_one(
             [

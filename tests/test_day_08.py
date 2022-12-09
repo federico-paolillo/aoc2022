@@ -3,7 +3,7 @@ import unittest
 from aoc2022.day_08 import part_one, part_two, read_jungle_trees_map
 
 
-class DaySixTestCase(unittest.TestCase):
+class DayEightTestCase(unittest.TestCase):
     def test_part_one_solves_example_input(self):
         result = part_one(
             [
