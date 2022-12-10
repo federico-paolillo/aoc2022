@@ -143,42 +143,4 @@ def part_two(movements: list[Movement]) -> int:
 
             unique_tail_positions.add(rope_segments[_TAIL_SEGMENT_INDEX])
 
-    minx = min(position[0] for position in unique_tail_positions)
-    maxx = max(position[0] for position in unique_tail_positions)
-    miny = min(position[1] for position in unique_tail_positions)
-    maxy = max(position[1] for position in unique_tail_positions)
-
-    print(minx, maxx)
-
-    for y in range(miny, maxy + 1):
-        for x in range(minx, maxx + 1):
-            if (x, y) == (0, 0):
-                print('s', end='')
-            elif (x, y) == rope_segments[_HEAD_SEGMENT_INDEX]:
-                print('H', end='')
-            elif (x, y) == rope_segments[_TAIL_SEGMENT_INDEX]:
-                print('T', end='')
-            elif (x, y) == rope_segments[1]:
-                print('1', end='')
-            elif (x, y) == rope_segments[2]:
-                print('2', end='')
-            elif (x, y) == rope_segments[3]:
-                print('3', end='')
-            elif (x, y) == rope_segments[4]:
-                print('4', end='')
-            elif (x, y) == rope_segments[5]:
-                print('5', end='')
-            elif (x, y) == rope_segments[6]:
-                print('6', end='')
-            elif (x, y) == rope_segments[7]:
-                print('7', end='')
-            elif (x, y) == rope_segments[8]:
-                print('8', end='')
-            elif (x, y) in unique_tail_positions:
-                print('#', end='')
-            else:
-                print('.', end='')
-        print()
-
-
     return len(unique_tail_positions)

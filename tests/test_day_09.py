@@ -163,4 +163,4 @@ class DayNineTestCase(unittest.TestCase):
 
         result = part_two(movements)
 
-        self.assertEqual(6018, result)
+        self.assertEqual(2619, result)
