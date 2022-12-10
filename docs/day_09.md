@@ -1,4 +1,4 @@
-# Day 8 - Rope Bridge
+# Day 9 - Rope Bridge
 
 ![A photo of Santa's Elfs in single file crossing a rope bridge over a river in a tropical forset](banners/day_09.png)
 
